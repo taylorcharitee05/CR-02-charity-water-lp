@@ -1,19 +1,64 @@
-/* charity: water Brand Colors & Fonts
+/* Set the font and background color for the whole page */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  color: #00274D;
+  line-height: 1.6;
+}
 
-Primary Colors:
-- Yellow:     #FFC907
-- Blue:       #2E9DF7
+/* Style the header section */
+header.hero {
+  background-color: #00274D;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
 
-Secondary Colors:
-- Light Blue: #8BD1CB
-- Green:      #4FCB53
-- Orange:     #FF902A
-- Red:        #F5402C
-- Dark Green: #159A48
-- Pink:       #F16061
+/* Make the main heading stand out */
+header.hero h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
 
-Fonts:
-- Proxima Nova
-- Avenir
+/* Style the call-to-action button */
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #FFD700; /* Bright yellow */
+  color: #00274D;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
 
-*/
+/* Change button color when hovered */
+.cta-button:hover {
+  background-color: #FFC300;
+}
+
+/* Add space around each section */
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Style for section headings */
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #00274D;
+}
+
+/* Style the footer */
+footer {
+  background-color: #00274D;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
